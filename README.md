@@ -9,6 +9,34 @@ Use of the dependencies for the SDK 3.0 and above are subject to the [Dolby Voic
 New repository and dependency to be used by the modules :
 
 ```
+maven { url "https://android-sdk.voxeet.com/release" }
+```
+
+```
+dependencies {
+   ...
+   implementation "com.voxeet.sdk:sdk:${version}"
+}
+```
+
+### v3.0.0
+
+Released on 2020-10-29.
+
+Focus on audio quality and new Dolby related integration :
+
+- mute and participants audio related API deprecation
+- audio improvement (using the dolbyVoice flag at conference creation)
+- auto video adaptation
+- internal service improvements
+
+## v3.x Beta
+
+Use of the dependencies for the SDK 3.0 and above are subject to the [Dolby Voice License agreement](LICENSE)
+
+New repository and dependency to be used by the modules :
+
+```
 maven { url "https://android-sdk.voxeet.com/beta" }
 ```
 
