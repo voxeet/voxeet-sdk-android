@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## v3.x Beta
+## v3.x
 
 Use of the dependencies for the SDK 3.0 and above are subject to the [Dolby Voice License agreement](LICENSE)
 
