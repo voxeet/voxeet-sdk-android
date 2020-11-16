@@ -19,6 +19,11 @@ dependencies {
 }
 ```
 
+### v3.0.1
+Released on 2020-11-16.
+
+- Changed the logging level to decrease the number of received logs, reducing the affects on system performance.
+
 ### v3.0.0
 
 Released on 2020-10-29.
