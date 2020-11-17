@@ -23,6 +23,8 @@ dependencies {
 Released on 2020-11-16.
 
 - Changed the logging level to decrease the number of received logs, reducing the affects on system performance.
+- Fixed an issue which prevented getting the audio from non dvc conferences
+- Fixed a crash which could happen during conferences
 
 ### v3.0.0
 
