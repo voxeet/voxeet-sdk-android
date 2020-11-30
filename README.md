@@ -19,6 +19,13 @@ dependencies {
 }
 ```
 
+### v3.0.2
+
+Released on 2020-11-30.
+
+- Fixed an issue preventing getting the audioLevel from participants either local or remote
+- Improved internal reconnection to the proper websocket's endpoint
+
 ### v3.0.1
 Released on 2020-11-16.
 
