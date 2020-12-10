@@ -19,6 +19,23 @@ dependencies {
 }
 ```
 
+### v3.0.3
+
+Released on 2020-12-9.
+
+Fixed an issue where devices like the Google Pixel and others were showing distorted videos from local participants.
+Fixed an issue where VideoPresentation controls where mixed up with the controls from the FilePresentation.
+
+The VoxeetSDK instance is now already available to be used. The various services are enabled and a new `isInitialized()` method is available in the VoxeetSDK class. This method will return true if the `VoxeetSDK.initialize(...)` has been used. This change will provide a better support for anything related to the system while keeping ap consistency when using `@NonNull` and `@Nullable` checker accross the apps using the SDK.
+
+It can be used as follow :
+
+```
+if(VoxeetSDK.instance().isInitialized()) {
+  ...
+}
+```
+
 ### v3.0.2
 
 Released on 2020-11-30.
@@ -66,6 +83,7 @@ dependencies {
 Released on 2020-12-7.
 
 Fixed an issue where devices like the Google Pixel and others were showing distorted videos from local participants.
+Fixed an issue where VideoPresentation controls where mixed up with the controls from the FilePresentation.
 
 The VoxeetSDK instance is now already available to be used. The various services are enabled and a new `isInitialized()` method is available in the VoxeetSDK class. This method will return true if the `VoxeetSDK.initialize(...)` has been used. This change will provide a better support for anything related to the system while keeping ap consistency when using `@NonNull` and `@Nullable` checker accross the apps using the SDK.
 
