@@ -19,6 +19,14 @@ dependencies {
 }
 ```
 
+### 3.1.0
+
+Released on 2021-03-01.
+
+Introducing the Conference Access Token (CAT), Conference Capacity Limit (CCL) and Video Forwarding Strategy (VFS). Those set of 3 APIs alongside various improvements in the SDK will help achieve great feature quality as well as providing a better security and stability while being in conferences.
+
+
+
 ### v3.0.3
 
 Released on 2020-12-9.
@@ -134,6 +142,20 @@ Fix various issues with the SDK :
 - fix telemetry upload causing crash on previous 2.4.x versions
 - provided VideoView's rendering `scaleType` has been changed to `streamScaleType` to prevent conflict with third party libraries
 
+## Proguard integration
+
+We recommend a wildcard configurations for our classes :
+
+```
+-keep class com.voxeet.** { *; }
+-keep interface com.voxeet.** { *; }
+
+-keep class org.webrtc.** { *; }
+-keep interface org.webrtc.** { *; }
+
+-keep class com.dolbyvoice.** { *; }
+-keep interface com.dolbyvoice.** { *; }
+```
 
 ## License
 
