@@ -19,6 +19,16 @@ dependencies {
 }
 ```
 
+### 3.1.1
+
+Released on 2021-03-11.
+
+Fix stability issues related to the 3.1.0 version :
+
+- join method is now properly resolving when being called
+- screenshare calls could hang when used on Android 10
+- OAuth callbacks now properly fires at various intervals before expiration of any previously obtained token
+
 ### 3.1.0
 
 Released on 2021-03-01.
