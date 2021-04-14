@@ -19,6 +19,20 @@ dependencies {
 }
 ```
 
+### 3.1.2
+
+Released on 2021-04-14.
+
+Fix stability issues related to the 3.1.0 and 3.1.1 versions :
+
+- local screenshare can now be attached to be rendered on the presenter side
+- calling multiple open(ParticipantInfo) could overwrite already negotiated information
+- improved various internal calls
+
+Deprecation :
+
+- to push forward security inside our customer's applications, we have deprecated the initialize(appId, appSecret), this method won't be removed but it will be clear from the IDE itself that developers should move toward the initialize(accessToken, refreshCallback) implementation.
+
 ### 3.1.1
 
 Released on 2021-03-11.
