@@ -19,6 +19,12 @@ dependencies {
 }
 ```
 
+### 3.1.4
+
+Released on 2021-04-30.
+
+- update embedded devices database to improve Crosscall compatibility
+
 ### 3.1.2
 
 Released on 2021-04-14.
