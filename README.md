@@ -183,8 +183,8 @@ We recommend a wildcard configurations for our classes :
 -keep class org.webrtc.** { *; }
 -keep interface org.webrtc.** { *; }
 
--keep class com.dolbyvoice.** { *; }
--keep interface com.dolbyvoice.** { *; }
+-keep class com.dolby.voice.** { *; }
+-keep interface com.dolby.voice.** { *; }
 ```
 
 ## License
