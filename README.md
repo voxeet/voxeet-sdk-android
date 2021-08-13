@@ -123,9 +123,9 @@ Released on 2021-02-02.
 
 **Features**
 
-- Introduced the Video Forwarding feature to allow participants to dynamically control the number of transmitted video streams. The [Video Forwarding](https://beta.dolby.io/developers/interactivity-apis/guides/video-forwarding) article describes in detail the changes to Interactivity APIs.
-- Introduced updates to the client SDK to support the use of conference access tokens for limiting the scope of participant permissions. The [Enhanced Conference Access Control](https://beta.dolby.io/developers/interactivity-apis/guides/enhanced-conference-access-control) article describes in detail the changes to Interactivity APIs.
-- Introduced the conference capacity limit, limiting the number of conference participants based on type, in order to preserve audio and video quality. The [Conference Capacity Limitations](https://beta.dolby.io/developers/interactivity-apis/guides/conference-capacity-limitations) article describes the capacity limits and [ConferenceAtMaxCapacityError](https://beta.dolby.io/developers/interactivity-apis/reference/client-sdk/reference-android/model/conferenceatmaxcapacityerror).
+- Introduced the Video Forwarding feature to allow participants to dynamically control the number of transmitted video streams. The [Video Forwarding](https://docs.dolby.io/interactivity/docs/guides-video-forwarding) article describes in detail the changes to Interactivity APIs.
+- Introduced updates to the client SDK to support the use of conference access tokens for limiting the scope of participant permissions. The [Enhanced Conference Access Control](https://docs.dolby.io/interactivity/docs/guides-enhanced-conference-access-control) article describes in detail the changes to Interactivity APIs.
+- Introduced the conference capacity limit, limiting the number of conference participants based on type, in order to preserve audio and video quality. The [Conference Capacity Limitations](https://beta.dolby.io/developers/interactivity-apis/guides/conference-capacity-limitations) article describes the capacity limits and [ConferenceAtMaxCapacityError](https://docs.dolby.io/interactivity/docs/android-client-sdk-model-conferenceatmaxcapacityerror).
 
 **Changes**
 
