@@ -4,7 +4,7 @@
 
 The complete documentation for this product is available on Dolby.io, where you can find the product [overview](https://docs.dolby.io/communications-apis/docs/android-overview), [instructions](https://docs.dolby.io/communications-apis/docs/getting-started-with-android) how to create a basic audio conference application, and [reference documentation](https://docs.dolby.io/communications-apis/docs/android-reference). 
 
-For additional information on Dolby.io Communications SDK for iOS releases, recent changes, and new features, see the Dolby.io Communications Client SDK [release notes](https://docs.dolby.io/communications-apis/changelog).
+For additional information on Dolby.io Communications SDK for Android releases, recent changes, and new features, see the Dolby.io Communications Client SDK [release notes](https://docs.dolby.io/communications-apis/changelog).
 
 ## Proguard integration
 
