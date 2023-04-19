@@ -6,6 +6,14 @@ The complete documentation for this product is available on Dolby.io, where you 
 
 For additional information on Dolby.io Communications SDK for Android releases, recent changes, and new features, see the Dolby.io Communications Client SDK [release notes](https://docs.dolby.io/communications-apis/changelog).
 
+## SDK dependency
+
+To include the Dolby.io Communications SDK for Android as a dependency in your project, add the following groupId to the dependencies section in your build.gradle file:
+
+```
+implementation "io.dolby:sdk:3.8.+"
+```
+
 ## Proguard integration
 
 We recommend a wildcard configurations for our classes :
